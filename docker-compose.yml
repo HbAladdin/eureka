@@ -1,6 +1,7 @@
 version: 3.1
 services:
   eureka-1:
+    build: .
     restart: always
     image: 192.168.1.106:5000/eureka
     container_name: eureka-1
